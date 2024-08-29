@@ -331,6 +331,8 @@ while HP > 0:
 
             if dragon <= 0:
                 print("\nYou have defeated the Undeafeatable Dragon! You are a master at this game :)")
+                HP+=70
+                SP+=45
                 break
 
     # Check if player is still alive
