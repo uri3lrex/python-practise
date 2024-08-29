@@ -346,6 +346,4 @@ while HP > 0:
     choice = input("\nDo you want to continue? (Y/N): ")
     if choice.upper() != "Y":
         print("\nSee you again, " + name + "!")
-        HP+=70
-        SP+=45
         break
